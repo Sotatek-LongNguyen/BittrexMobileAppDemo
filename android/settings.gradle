@@ -1,0 +1,3 @@
+rootProject.name = 'BittrexMobilePf2k'
+
+include ':app'

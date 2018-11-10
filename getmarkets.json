@@ -1,0 +1,49 @@
+//GetMarket
+{
+	"MarketCurrency": "LTC",
+	"BaseCurrency": "BTC",
+	"MarketCurrencyLong": "Litecoin",
+	"BaseCurrencyLong": "Bitcoin",
+	"MinTradeSize": 0.01435906,
+	"MarketName": "BTC-LTC",
+	"IsActive": true,
+	"IsRestricted": false,
+	"Created": "2014-02-13T00:00:00",
+	"Notice": null,
+	"IsSponsored": null,
+	"LogoUrl": "https://bittrexblobstorage.blob.core.windows.net/public/6defbc41-582d-47a6-bb2e-d0fa88663524.png"
+}
+
+
+//Get Currencies
+{
+	"Currency": "BTC",
+	"CurrencyLong": "Bitcoin",
+	"MinConfirmation": 2,
+	"TxFee": 0.00050000,
+	"IsActive": true,
+	"IsRestricted": false,
+	"CoinType": "BITCOIN",
+	"BaseAddress": "1N52wHoVR79PMDishab2XmRHsbekCdGquK",
+	"Notice": null
+}
+
+
+//Get Market Summaries
+{
+	"MarketName":"BTC-LTC",
+	"High":0.00854705,
+	"Low":0.00834002,
+	"Volume":5928.90326279,
+	"Last":0.00845150,
+	"BaseVolume":50.18718669,
+	"TimeStamp":"2018-09-20T16:53:37.107",
+	"Bid":0.00845150,"Ask":0.00845399,
+	"OpenBuyOrders":716,
+	"OpenSellOrders":2154,
+	"PrevDay":0.00843698,
+	"Created":"2014-02-13T00:00:00"
+}
+
+
+//Get 

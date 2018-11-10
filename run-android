@@ -1,0 +1,9 @@
+echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances
+echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events
+echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+killall node
+watchman watch-del-all
+watchman shutdown-server
+sudo sysctl -w fs.inotify.max_user_instances=1024
+sudo sysctl -w fs.inotify.max_user_watches=12288
+react-native start
